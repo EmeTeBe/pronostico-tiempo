@@ -1,0 +1,9 @@
+.alert {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.8rem;
+  border: 0.2rem solid var(--primary);
+  padding: 1rem;
+  border-radius: 1.5rem;
+}
