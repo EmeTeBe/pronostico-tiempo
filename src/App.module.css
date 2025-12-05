@@ -5,9 +5,11 @@
 }
 
 .container {
+  display: grid;
   width: 95%;
   max-width: 100rem;
   margin: 0 auto;
+  gap: 4rem;
 }
 
 @media (min-width: 768px) {
@@ -15,7 +17,6 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    gap: 4rem;
     margin-top: 5rem;
   }
 }
